@@ -1,0 +1,25 @@
+{
+  "name": "lucid-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmai/lucid-core.git"
+  },
+  "author": "Nick Mai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmai/lucid-core/issues"
+  },
+  "homepage": "https://github.com/nmai/lucid-core#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chance": "^1.0.4",
+    "mocha": "^3.0.2"
+  }
+}
