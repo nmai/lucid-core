@@ -1,7 +1,12 @@
 'use strict'
-let app = require('./index')
+let Core = require('./lib/core').Core
+let expect = require('chai').expect
 
 describe('client', () => {
+  it ('should print test shit', () => {
+    const core = new Core()
+    expect(core.process()).to.equal(2)
+  })
   it ('should receive messages', () => {
     
   })

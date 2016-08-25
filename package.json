@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc ./lib/core --outDir ./dist",
+    "test": "mocha --compilers ts:ts-node/register,tsx:ts-node/register ./main.spec.js",
+    "unit": "karma start --single-run",
+    "unit:watch": "karma start"
   },
   "repository": {
     "type": "git",
@@ -20,6 +23,9 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "chance": "^1.0.4",
-    "mocha": "^3.0.2"
+    "mocha": "^3.0.2",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.2"
   }
 }
