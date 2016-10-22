@@ -1,3 +1,6 @@
+# Project-level
+dist
+
 # Logs
 logs
 *.log

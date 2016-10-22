@@ -19,7 +19,9 @@
     "url": "https://github.com/nmai/lucid-core/issues"
   },
   "homepage": "https://github.com/nmai/lucid-core#readme",
-  "dependencies": {},
+  "dependencies": {
+    "rxjs": "^5.0.0-rc.1"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "chance": "^1.0.4",
